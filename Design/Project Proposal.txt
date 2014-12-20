@@ -1,0 +1,28 @@
+Project Proposal.txt
+Lukas Peraza
+lbp
+Section A
+15-112 Fall 2013
+
+
+
+OCR Translator
+	project proposal
+
+
+
+My project will be a translator app which uses Optical Character Recognition(OCR)
+and Google Translate to display translation results directly on an image which 
+contains a foreign language. For example - if you are in a country where the people
+speak a different language, and road signs and menus are all in that language, what
+do you do? Potentially you could use my app to take a video of the sign, or the menu,
+and the English (or your native language) translation of the text will appear right
+where the original used to be on your screen.
+
+Ideally this would be a mobile app, but for this course I'll keep it on the computer.
+
+**** Modules
+For image processing and OCR:
+	opencv
+For translation:
+	goslate (Google translation library)

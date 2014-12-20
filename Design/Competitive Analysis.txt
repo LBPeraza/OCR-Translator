@@ -1,0 +1,47 @@
+Competitive Analysis.txt
+Lukas Peraza
+lbp
+Section A
+15-112 Fall 2013
+
+
+
+OCR TRANSLATOR
+	competitive analysis
+
+
+
+****  Good similar apps
+
+Google Translate (iPhone/android)
+	What I like:
+		Lots of languages
+		Great text recognition
+		Text to speech after translation
+	What I don't like:
+		No real-time translation
+
+Word Lens (iPhone/android)
+	What I like:
+		Real-time translation
+	What I don't like:
+		Less language support
+
+
+****  Bad similar apps
+
+CoolOCR (android)
+	OCR is bad
+	Translations aren't great
+
+
+
+
+**** My app
+
+I want to include real-time translation as in Word Lens
+Ideally, my application would be a mobile app, but realistically that won't happen
+I'd like a few more languages than Word Lens
+	- Only languages with Latin alphabet for OCR purposes
+I'll use Google Translate library for translation purposes
+Potentially scrape Google Translate for text-to-speech - probably not

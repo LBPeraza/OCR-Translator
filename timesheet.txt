@@ -1,0 +1,20 @@
+Timesheet.txt
+Lukas Peraza
+lbp
+15-112 Fall 2013
+
+
+
+OCR Translator
+	timesheet
+
+
+
+opencv installation.......... ~1.5 hours
+opencv tech demo.............    3 hours
+text extraction from video...   14 hours
+option menu programming......    5 hours
+OCR algorithms...............    7 hours
+translation library demo.....  ~15 minutes
+
+TOTAL........................  ~50 hours

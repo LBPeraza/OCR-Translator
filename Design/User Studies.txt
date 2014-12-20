@@ -1,0 +1,34 @@
+User Studies.txt
+Lukas Peraza
+lbp
+Section A
+15-112 Fall 2013
+
+
+
+OCR Translator
+	user study notes
+
+
+User studies could have gone better
+Most of my work was still in separate files
+	-not all combined, had to show individual parts
+
+
+
+Suggestions in order of priority
+
+Make it clearer what the user can do
+	>>> I implemented as clear instructions on top and
+	    bottom of screen
+
+Give option to change text in case OCR didn't work
+	-OCR isn't perfect, especially OCR that was
+	    written in a week
+	>>> I implemented this as a tkSimpleDialog box
+
+Auto Translate when text is seen
+	-don't have to hit space
+
+Auto brightness/contrast
+	-instead of having sliders for brightness/contrast

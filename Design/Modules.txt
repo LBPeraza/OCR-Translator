@@ -1,0 +1,39 @@
+Modules.txt
+Lukas Peraza
+lbp
+Section A
+15-112 Fall 2013
+
+
+
+OCR Translator
+	module design document
+
+
+modules:
+	Animation - slightly modified from class notes to include mouse motion/release events
+		
+		OptionsMenu - extends animation to create a Tkinter GUI
+			(within OCROptions.py)
+
+	AsciiTranslator - utility class for translation
+		(see goslate) - goslate returns a unicode string, which can't be displayed
+		using opencv, so AsciiTranslator translates and converts to an ascii string
+
+	BoxHandling - handles all operations on boxes found in video stream
+		mainly used to replace text on signs
+
+	compareImg - compares 2 black and white images - used in OCR
+
+	constants - global constants used throughout the project
+
+	extractBoxes - finds boxes in video stream which may be signs with text
+
+	goslate - free module created by ZHUO Qiang - uses Google to translate strings
+
+	OCR - reads text from image files
+
+	OCROptions - (see Animation->Options Menu)
+
+	OCRTranslator - main project file
+		uses all above modules in tandem to create the user experience
